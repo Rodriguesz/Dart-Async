@@ -1,0 +1,9 @@
+Processamento sincrono: processamento onde o event loop vai executar
+a interação por completo
+
+O FIFO (first in, first out) só serve para processos finalizados
+
+
+Quando falamos de programação assincrona, deixamos de falar de funções sequenciais 
+que serão executadas uma após a outra. As funções serão executadas quando acontecer
+alguma coisa

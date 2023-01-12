@@ -1,0 +1,3 @@
+Definição: é um padrão de projeto que espera despachar eventos ou mensagem 
+em um programa. Resumidamente, é esponsável por executar todos os processos
+dentro do sistema em uma determinada ordem.

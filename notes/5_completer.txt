@@ -1,0 +1,1 @@
+uma forma de controlar quando eu quero q a classe complete com sucesso e erro baseado em um condicional ou algo do tipo

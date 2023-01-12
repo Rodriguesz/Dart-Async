@@ -1,0 +1,12 @@
+Base da programação asyncrona: executar mais de um processo ao mesmo tempo
+--------------------------------------------------------------------------
+
+*Concorrência*
+
+Definição: quando um ou mais processos diferentes podem ser executados no mesmo espaço
+de tempo.
+
+Isolate: O dart não trabalha com multithread, ou seja, é um línguagem single-thread. Todo
+código que executamos roda em um uma única thread, ou mlehor dizendo, em uma Isolate. Esse
+código é executado instrução após instrução, respeitando essa sequência.
+

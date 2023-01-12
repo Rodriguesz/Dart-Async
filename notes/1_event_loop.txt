@@ -1,0 +1,6 @@
+A função main() sempre terá prioridade na fila de execução.
+
+FIFO: first in, first out (primeiro a entrar, primeiro a sair)
+
+main > microtasks > events
+

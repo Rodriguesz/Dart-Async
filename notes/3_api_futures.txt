@@ -1,0 +1,10 @@
+Future.sync = faz com que o que esteja dentro do Future seja executado na mesma interação do event loop
+Future.microtask = Cria um evento com prioridade na fila de eventos
+Future.wait = Só executa a função depois que todos os eventos estiverem completos mesmo que algum evento de erro
+    eagerError = faz com que não precise esperar todos os futuros terminarem para chamar o catchError
+    cleanUp = método que executará com os futuros que foram completados com sucesso caso algum dê erro
+
+.then deixa de executar caso algum future de erro
+
+future.any = pega o evento que terminar primeiro, independente de ser concluido com sucesso ou erro
+             mas sem cancelar os outros

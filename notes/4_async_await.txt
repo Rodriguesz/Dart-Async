@@ -1,0 +1,14 @@
+A palavra async informa ao dart que dentro do método vao ter algo assincrono em algum momento. Isso
+faz com que o dado seja "envelopado" dentro de um futuro para retornar. Basicamente o dado retornado
+se torna um futuro.
+
+colocando o async, não existe a necessidade de declarar a função como Future<tipo> pois o dart entende
+que haverá algo futuro acontecendo ali dentro. Se o tipo não for declarado, a função será automaticamente 
+será Future<dynamic>.
+
+Mesmo não sendo necessário, é uma boa prática sempre declarar o tipo.
+
+O await fala pro dart que ele tem que esperar aquele ponto do código ser resolvido antes dele dar continuidade na função
+
+
+timeout da o erro mas não cancela o futuro
