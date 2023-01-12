@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Anotações e códigos do curso de programação assíncrona "Dart: Async" da Academia do Flutter.
